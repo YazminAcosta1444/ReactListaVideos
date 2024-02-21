@@ -1,0 +1,53 @@
+.navbar-brand h1 {
+    margin-left: 10px;
+  }
+  
+  #idContenedorIndex {
+    display: grid;
+    grid-template-areas:
+      "header"
+      "imagen"
+      "lista"
+      "videos";
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    margin-top: 22px;
+    height: 0;
+    overflow: hidden;
+    width: 75%;
+  }
+  
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-info button {
+    margin-top: 10px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col button {
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
